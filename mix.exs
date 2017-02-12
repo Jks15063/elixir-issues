@@ -8,8 +8,8 @@ defmodule Issues.Mixfile do
       version:         "0.0.1",
       name:            "Issues",
       source_url:      "git@github.com:Jks15063/elixir-issues.git",
-      build_embedded:  Mix.env == : prod,
-      start_permanent: Mix.env == : prod,
+      build_embedded:  Mix.env == :prod,
+      start_permanent: Mix.env == :prod,
       deps:            deps()
     ]
   end
